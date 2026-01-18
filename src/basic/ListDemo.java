@@ -1,9 +1,6 @@
 package basic;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class ListDemo {
     public static void main(String[] args) {
@@ -41,6 +38,10 @@ public class ListDemo {
                     2. Xai array 2 chieu
                     3. Xai list
          */
+        System.out.println("--------------------------");
+        List<String> myListName = Arrays.asList("John", "Alice", "Tom", "Tom", "Tom", "Alice", "John");
+        HashSet<String> myUniqueSet = new HashSet<>(myListName);
+        System.out.println(myUniqueSet);
 
     }
 }
