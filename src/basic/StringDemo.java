@@ -7,5 +7,8 @@ public class StringDemo {
 
         String substr = s.substring(4, 8);
         System.out.println(substr);
+
+        System.out.println("5" + 3);
+
     }
 }

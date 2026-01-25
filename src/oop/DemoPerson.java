@@ -34,5 +34,16 @@ public class DemoPerson {
         System.out.println(p3.getName()); // Tommy
         p3 = t1;
         System.out.println(p3.getName()); // David
+
+        System.out.println("-------------------");
+        //Upcasting
+        Student s2 = new Student("Thomas", 34, "133 Street E");
+        Person p4 = s2; // upcasting
+        Student s3 = (Student) p4; //downcasting
+        s3.registerClass("Testing12");
+
+//        s2.registerClass("Testing12");
+
+
     }
 }
