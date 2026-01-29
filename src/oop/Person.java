@@ -23,4 +23,34 @@ public class Person {
     public String getAddress() {
         return this.address;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
+    }
+
+    final public void printTrainingSchool() {
+        System.out.println("Cybersoft");
+    }
+
+    //khai bao lai protected
+    protected int getNameLength() {
+        return this.name.length();
+    }
 }

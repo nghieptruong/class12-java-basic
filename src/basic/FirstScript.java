@@ -1,5 +1,7 @@
 package basic;
 
+import oop.House;
+
 public class FirstScript {
     public static void main(String[] args) {
         // khai bao bien co ten x voi kieu la int (kieu so nguyen)
@@ -21,8 +23,6 @@ public class FirstScript {
         //4. boolean : kieu logic true/false
         boolean b = true;
         boolean isDone = false;
-
-
 
     }
 }

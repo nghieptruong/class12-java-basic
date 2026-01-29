@@ -9,4 +9,5 @@ public class Student extends Person {
     public void registerClass(String className) {
         System.out.println("Registered " + className);
     }
+
 }
